@@ -10,8 +10,13 @@ namespace StructExample
     {
         static void Main(string[] args)
         {
-            Mark m = new Mark(6, 7);
-            m.DoThis();
+            /*Mark m = new Mark(6, 7);
+            m.DoThis();*/
+
+            Mark m2;
+            m2.x = 6;
+            m2.y = 7;
+            m2.DoThis();
         }
     }
     public struct Mark
